@@ -10,8 +10,10 @@ class App extends Component {
     render() {
         return (
             <Router>
-                <div className="App">
+                <div className='main'>
+                    <div className=''>
 
+                    </div>
                 </div>
             </Router>
         );
