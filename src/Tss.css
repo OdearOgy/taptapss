@@ -1,0 +1,37 @@
+.w--full{
+    width: 100%;
+}
+.h--full{
+    height: 100vh;
+}
+.d--inline-block{
+    display: inline-block;
+}
+.d--block{
+    display: block;
+}
+.f--left{
+    float: left;
+}
+.f--right{
+    float: right;
+}
+.clear{
+    clear: both;
+    content: '';
+}
+.p--0{
+    padding: 0;
+}
+.m--0{
+    margin: 0;
+}
+.l-style--none{
+    list-style: none;
+}
+.text-d--none{
+    text-decoration: none;
+}
+.text-t--up{
+    text-transform: uppercase;
+}
