@@ -7,20 +7,17 @@ import{
     Route,
     Link
 } from 'react-router-dom';
-var banner = {
-    backgroundImage: `url(${Banner})`
-}
 class App extends Component {
     render() {
         return (
             <Router>
                 <div className='Main'>
-                    <div className='Header w--full h--full' style={ banner }>
+                    <div className='Header w--full h--full' style={{backgroundImage: `url(${Banner})`}}>
                         <div className='Header-cover w--full h--full'>
                             <div className='Nav w--full m--0'>
                                 <div className='Nav-inner'>
                                     <div className='Logo d--inline-block f--left'>
-
+                                        
                                     </div>
                                     <div className='Menu d--inline-block f--right'>
                                         <ul className='.p--0 .m--0'>

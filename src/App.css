@@ -14,17 +14,22 @@
     background-color: #fff;
 }
 .Header-cover{
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.2);
 }
 .Nav{
     overflow: hidden;
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0));
 }
 .Nav-inner{
-    padding: 1vw;
+    padding: 1vw 10vw;
 }
 .Nav-inner ul li a{
+    font-weight: 600;
     color: #fff;
-    font-size: 1vw;
-    padding: 0.5vw 1.5vw
+    font-size: 1.1vw;
+    padding: 0.5vw 1.5vw;
+    border-radius: 0.5vw;
+    transition: all .2s;
+}
+.Nav-inner ul li a:hover{
+    background-color: rgba(255, 255, 255, 0.2);
 }
