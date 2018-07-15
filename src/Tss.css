@@ -1,37 +1,89 @@
-.w--full{
+.w--full {
     width: 100%;
 }
-.h--full{
+.h--full {
     height: 100vh;
 }
-.d--inline-block{
+.d--inline-block {
     display: inline-block;
 }
-.d--block{
+.d--block {
     display: block;
 }
-.f--left{
+.f--left {
     float: left;
 }
-.f--right{
+.f--right {
     float: right;
 }
-.clear{
+.clear {
     clear: both;
     content: '';
 }
-.p--0{
+.p--0 {
     padding: 0;
 }
-.m--0{
+.m--0 {
     margin: 0;
 }
-.l-style--none{
+.l-style--none {
     list-style: none;
 }
-.text-d--none{
+.text-d--none {
     text-decoration: none;
 }
-.text-t--up{
+.text-t--up {
     text-transform: uppercase;
+}
+
+.text-a--center {
+  text-align: center;
+}
+
+.c--white {
+  color: white;
+}
+
+.f-f--ourF {
+  font-family: Fredoka_one;
+}
+
+.b--none {
+  border: none;
+}
+
+.b--white {
+  border: 0.4vmin solid white;
+}
+
+.b--black {
+  border: 0.4vmin solid black;
+}
+
+.oln--none {
+  outline: none;
+}
+
+.pst--abs {
+  position: absolute;
+}
+
+@font-face {
+    font-family: Fredoka_One;
+    src: url('./fonts/FredokaOne-Regular.ttf');
+}
+
+@font-face {
+    font-family: TitanOne-Regular;
+    src: url('./fonts/TitanOne-Regular.ttf');
+}
+
+@font-face {
+  font-family: Ubuntu-Regular;
+  src: url('./fonts/ubuntu/Ubuntu-Regular.ttf');
+}
+
+@font-face {
+  font-family: Ubuntu-Bold;
+  src: url('./fonts/ubuntu/Ubuntu-Bold.ttf');
 }

@@ -1,15 +1,18 @@
 import React, { Component } from 'react';
 import './App.css';
 import './Tss.css';
-import Banner from './img/banner.jpg';
-import{
+import Banner from './img/banner2.jpg';
+
+import {
     BrowserRouter as Router,
     Route,
     Link
 } from 'react-router-dom';
 var banner = {
     backgroundImage: `url(${Banner})`
-}
+};
+
+
 class App extends Component {
     render() {
         return (
@@ -19,24 +22,39 @@ class App extends Component {
                         <div className='Header-cover w--full h--full'>
                             <div className='Nav w--full m--0'>
                                 <div className='Nav-inner'>
-                                    <div className='Logo d--inline-block f--left'>
+                                    <div className='Logo d--inline-block f--left'></div>
 
-                                    </div>
-                                    <div className='Menu d--inline-block f--right'>
-                                        <ul className='.p--0 .m--0'>
-                                            <li className='d--inline-block l-style--none'><a href='#' className='d-block text-d--none text-t--up'>home</a></li>
-                                            <li className='d--inline-block l-style--none'><a href='#' className='d-block text-d--none text-t--up'>blog</a></li>
-                                            <li className='d--inline-block l-style--none'><a href='#' className='d-block text-d--none text-t--up'>about</a></li>
-                                            <li className='d--inline-block l-style--none'><a href='#' className='d-block text-d--none text-t--up'>service</a></li>
-                                            <li className='d--inline-block l-style--none'><a href='#' className='d-block text-d--none text-t--up'>content</a></li>
-                                            <li className='d--inline-block l-style--none'><a href='#' className='d-block text-d--none text-t--up'>faq</a></li>
-                                        </ul>
-                                    </div>
                                     <div className='clear'></div>
+
                                 </div>
                             </div>
-                        </div>
+                            <div className="Titles text-a--center" >
+                              <h2 className="f-f--ourF c--white">TapTap</h2>
+                              <p className="f-f--ourF c--white">Walk in a local's shoes and make your own story</p>
+                              <button className="Btn-setts f-f--ourF b--white">Become a Local</button>
+                            </div>
+                          </div>
                     </div>
+                    <section>
+                        <div className="Tours-section text-a--center">
+                          <h2>Our Fantastic Tours</h2>
+                          <div className="Cards-parent">
+                              <div className="Cards b--black"> hello world</div>
+                              <div className="Cards b--black">lorem ipsum</div>
+                              <div className="Cards b--black"> lorem ipsum 2</div>
+                          </div>
+                        </div>
+
+                        <div className="Blog-section text-a--center">
+                          <h2>Our Recent Blogs</h2>
+                          <div className="Cards-parent">
+                              <div className="Cards b--black"> hello world</div>
+                              <div className="Cards b--black">lorem ipsum</div>
+                              <div className="Cards b--black"> lorem ipsum 2</div>
+                          </div>
+                        </div>
+                  </section>
+
                 </div>
             </Router>
         );
