@@ -8,10 +8,6 @@ import {
     Route,
     Link
 } from 'react-router-dom';
-var banner = {
-    backgroundImage: `url(${Banner})`
-};
-
 
 class App extends Component {
     render() {
