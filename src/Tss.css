@@ -96,3 +96,8 @@
 .pst--abs {
   position: absolute;
 }
+
+.bg--gradient {
+background: linear-gradient(left, #2dbf91, #55a6a1);
+
+}

@@ -38,7 +38,7 @@ class App extends Component {
                         <div className="Tours-section d--flex ">
                           <div className="Section-header d--flex">
                               <h2>Our Fantastic Tours</h2>
-                              <button className="grt-btn">View Tours</button>
+                              <button className="gdn-btn bg--gradient b--none">View Tours <i class="arrow right"></i> </button>
                           </div>
                           <div className="Cards-parent d--flex">
                               <div className="Cards b--black tour-cards">
@@ -101,20 +101,20 @@ class App extends Component {
                                       </div>
                                   </div>
                               </div>
-                              <button className="Slider-btn">slider</button>
+                              <button className="Slider-btn"> <i class="arrow right"></i></button>
                           </div>
                         </div>
 
                         <div className="Blog-section d--flex">
                           <div className="Section-header d--flex ">
                               <h2>Our Recent Blogs</h2>
-                              <button className="grt-btn">View Blogs</button>
+                              <button className="gdn-btn bg--gradient b--none">View Blogs <i class="arrow right"></i> </button>
                           </div>
                           <div className="Cards-parent d--flex">
                               <div className="Cards b--black"> hello world</div>
                               <div className="Cards b--black">lorem ipsum</div>
                               <div className="Cards b--black"> lorem ipsum 2</div>
-                              <button className="Slider-btn">slider</button>
+                              <button className="Slider-btn"> <i class="arrow right"></i></button>
                           </div>
                         </div>
                   </section>

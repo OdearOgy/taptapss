@@ -78,6 +78,7 @@
 
 .Cards-parent {
   justify-content: center;
+  align-items: center;
 }
 
 .Cards {
@@ -93,6 +94,8 @@
 
 .slider-btn-bottom {
   justify-content: center;
+
+
 }
 
 
@@ -131,6 +134,38 @@
   box-shadow: 0 0 5vmin #000000b3;
 
 }
+
+
+
+
+.gdn-btn {
+  border-radius: 1.5vmin;
+  line-height: 2vmin;
+  color: white;
+  padding: 2vmin 2.5vmin 2vmin 2.5vmin;
+}
+
+
+.Slider-btn {
+  width: 50px;
+  height: 50px;
+  background: rgba(0, 0, 0, 0);
+  border: none;
+
+
+}
+
+i {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
 /*
 button color
 first color - #2dbf91
@@ -143,6 +178,18 @@ free logo
 first color - #3bd38f
 last color - #3cd3c7
 */
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
