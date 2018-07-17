@@ -2,16 +2,18 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: Arial;
+    font-family: Fredoka_one, Arial;
+    box-sizing: border-box;
 }
 
 /* Header */
 .Header {
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-position: 50%;
     background-size: cover;
     background-color: #fff;
+
 }
 
 .Header-cover {
@@ -29,8 +31,22 @@
 
 /* need to review this part of code */
 
+.Logo {
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-position: 50%;
+  background-size: cover;
+  background-color: #fff;
+  height: 100%;
+  width: 100%;
+}
+
+
 .Titles {
   font-size: 4vmin;
+  padding: 30vh 35vw;
+  /* border: 2px solid black; */
+  /* margin: 2vmin; */
 }
 
 .Btn-setts {
@@ -45,29 +61,119 @@
 
 /*  writing some code without utility classes */
 
-/* .Tours-section, .Blog-section {
-  height: 20vh;
-  width: 98vw;
-} */
 
-section {
-  height: 20vh;
-  width: 98vw;
+.Tours-section, .Blog-section {
+  /* padding: 5vmin; */
+  /* margin: 5vmin; */
+  /* border: 1px solid black; */
+  width: auto;
+  flex-direction: column;
+
+}
+
+.Section-header {
+  justify-content: space-around;
+
 }
 
 .Cards-parent {
-  display: flex;
   justify-content: center;
-  align-items: center;
-
-  padding: 15vmin;
-  margin: 2vmin;
 }
 
 .Cards {
-  width: 450px;
-  height: 450px;
+  width: 35vmin;
+  height: 50vmin;
 
-  padding: 2vmin;
+  /* padding: 2vmin; */
   margin: 4vmin;
+  border-radius: 2vmin;
+
+}
+
+
+.slider-btn-bottom {
+  justify-content: center;
+}
+
+
+.card-header {
+  overflow: hidden;
+  position: relative;
+}
+
+.card-img {
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-position: 50%;
+  background-size: cover;
+  background-color: #fff;
+  height: 33vh;
+  width: 15.9vw;
+
+}
+
+.card-cover {
+
+  position: absolute;
+  background:  black;
+  top: 0;
+  width: auto;
+  heigth: auto;
+}
+
+
+
+
+
+
+.tour-cards {
+  overflow: hidden;
+  box-shadow: 0 0 5vmin #000000b3;
+
+}
+/*
+button color
+first color - #2dbf91
+last color - #55a6a1
+*/
+
+
+/*
+free logo
+first color - #3bd38f
+last color - #3cd3c7
+*/
+
+
+
+/* scrollbar from previus mvp */
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-corner {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #b0b0b0;
+    border: 0 none #f8f8f8;
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-track {
+    background: #fafafa;
+    border: 0 none #fff;
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    transition: all .5s;
+    background-color: #707070;
+}
+::selection {
+    color: #fff;
+    background: #32CC34;
 }

@@ -1,3 +1,27 @@
+/* Please create another file for fonts */
+@font-face {
+    font-family: Fredoka_One;
+    src: url('./fonts/FredokaOne-Regular.ttf');
+}
+
+@font-face {
+    font-family: TitanOne-Regular;
+    src: url('./fonts/TitanOne-Regular.ttf');
+}
+
+@font-face {
+  font-family: Ubuntu-Regular;
+  src: url('./fonts/ubuntu/Ubuntu-Regular.ttf');
+}
+
+@font-face {
+  font-family: Ubuntu-Bold;
+  src: url('./fonts/ubuntu/Ubuntu-Bold.ttf');
+}
+
+
+/* utility classes */
+
 .w--full {
     width: 100%;
 }
@@ -10,6 +34,11 @@
 .d--block {
     display: block;
 }
+
+.d--flex {
+  display: flex;
+}
+
 .f--left {
     float: left;
 }
@@ -66,24 +95,4 @@
 
 .pst--abs {
   position: absolute;
-}
-
-@font-face {
-    font-family: Fredoka_One;
-    src: url('./fonts/FredokaOne-Regular.ttf');
-}
-
-@font-face {
-    font-family: TitanOne-Regular;
-    src: url('./fonts/TitanOne-Regular.ttf');
-}
-
-@font-face {
-  font-family: Ubuntu-Regular;
-  src: url('./fonts/ubuntu/Ubuntu-Regular.ttf');
-}
-
-@font-face {
-  font-family: Ubuntu-Bold;
-  src: url('./fonts/ubuntu/Ubuntu-Bold.ttf');
 }
