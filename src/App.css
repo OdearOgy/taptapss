@@ -313,7 +313,7 @@ last color - #3cd3c7
 
 
 .Card-fab:hover {
-  background: linear-gradient(left, #2dbf91, #55a6a1);
+  /* background: linear-gradient(left, #2dbf91, #55a6a1); */
   cursor: pointer;
   -ms-transform: rotate(360deg);
 	-webkit-transform: rotate(69deg); /* :) */
