@@ -4,6 +4,7 @@
     padding: 0;
     font-family: Fredoka_one, Arial;
     box-sizing: border-box;
+
 }
 
 /* Header */
@@ -24,29 +25,32 @@
     overflow: hidden;
 }
 
-.Nav-inner {
+/* .Nav-inner {
     padding: 1vw;
-}
+} */
 
 
 /* need to review this part of code */
 
 .Logo {
-  background-repeat: no-repeat;
-  /* background-attachment: fixed; */
-  background-position: 50%;
-  background-size: cover;
-  background-color: #fff;
-  height: 100%;
-  width: 100%;
+
 }
 
 
 .Titles {
+  width: 30vw;
+  height: 30vh;
   font-size: 4vmin;
-  padding: 30vh 35vw;
-  /* border: 2px solid black; */
+  /* padding: 30vh 35vw; */
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  border: 2px solid black;
   /* margin: 2vmin; */
+
 }
 
 .Btn-setts {
@@ -62,88 +66,58 @@
 /*  writing some code without utility classes */
 
 
+
+section {
+  width: 70vw;
+  height: auto;
+  position: absolute;
+  top: 100vh;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
 .Tours-section, .Blog-section {
-  /* padding: 5vmin; */
-  /* margin: 5vmin; */
+  padding: 5vmin;
+  margin: 5vmin;
   /* border: 1px solid black; */
-  width: auto;
   flex-direction: column;
+  align-items: flex-start;
 
 }
 
 .Section-header {
-  justify-content: space-around;
-
-}
-
-.Cards-parent {
-  justify-content: center;
   align-items: center;
 }
 
-.Cards {
-  width: 35vmin;
-  height: 50vmin;
-
-  /* padding: 2vmin; */
-  margin: 4vmin;
-  border-radius: 2vmin;
-
-}
 
 
 .slider-btn-bottom {
-  justify-content: center;
+
+  cursor: pointer;
 
 
 }
 
 
-.card-header {
-  overflow: hidden;
-  position: relative;
-}
-
-.card-img {
-  background-repeat: no-repeat;
-  /* background-attachment: fixed; */
-  background-position: 50%;
-  background-size: cover;
-  background-color: #fff;
-  height: 33vh;
-  width: 15.9vw;
-
-}
-
-.card-cover {
-
-  position: absolute;
-  background:  black;
-  top: 0;
-  width: auto;
-  heigth: auto;
-}
-
-
-
-
-
-
-.tour-cards {
-  overflow: hidden;
-  box-shadow: 0 0 5vmin #000000b3;
-
-}
 
 
 
 
 .gdn-btn {
   border-radius: 1.5vmin;
-  line-height: 2vmin;
   color: white;
   padding: 2vmin 2.5vmin 2vmin 2.5vmin;
+  cursor: pointer;
 }
+
+.gdn-btn:hover {
+  background: red;
+  transition: all .2s ease-in-out;
+
+}
+
 
 
 .Slider-btn {
@@ -155,17 +129,43 @@
 
 }
 
+/*
+.arrow-btn {
+  transform: scale(65) !important;
+  cursor: pointer;
+
+} */
+
+
 i {
-    border: solid black;
-    border-width: 0 3px 3px 0;
+    border: solid white;
+    border-radius: 0.3vmin 0.3vmin 0.3vmin;
+    border-width: 0 0.5vmin 0.5vmin 0;
     display: inline-block;
-    padding: 3px;
+    padding: 0.5vmin;
 }
 
 .right {
-    transform: rotate(-45deg);
+    transform: rotate(-45deg) ;
     -webkit-transform: rotate(-45deg);
+
 }
+
+
+.slide-arrow {
+  border-width: 0 1.2vmin 1.2vmin 0;
+  border-color: black;
+  padding: 2vmin;
+  border-radius: 1vmin 1vmin;
+  cursor: pointer;
+
+}
+
+
+
+
+
+
 /*
 button color
 first color - #2dbf91
@@ -178,6 +178,89 @@ free logo
 first color - #3bd38f
 last color - #3cd3c7
 */
+
+
+
+
+/*
+.card-header {
+  overflow: hidden;
+  position: relative;
+}
+
+.card-header:hover {
+   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+} */
+
+/* .card-img {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50%;
+  background-size: cover;
+  background-color: #fff;
+  height: 33vh;
+  width: 15.9vw;
+
+}
+*/
+
+
+.Cards-parent {
+  justify-content: center;
+  align-items: center;
+}
+
+.Cards {
+  width: 35vmin;
+  height: 50vmin;
+  box-shadow: 0 0.5vmin 0.8vmin 0 rgba(0,0,0,.3);
+  overflow: hidden;
+
+
+  /* padding: 2vmin; */
+  margin: 4vmin;
+  border-radius: 4vmin;
+  position: relative;
+  transition: all .2s ease-in-out;
+  background: grey;
+
+}
+
+.Cards:hover {
+  box-shadow: 0 3vmin 3vmin rgba(0,0,0,0.19), 0 1.5vmin 2vmin rgba(0,0,0,0.23);
+  background: white;
+  opacity: 1;
+
+}
+
+
+.Image {
+  width: 35vmin;
+  height: 25vmin;
+  opacity: .8;
+  overflow: hidden;
+  transition: all .2s ease-in-out;
+}
+
+
+.Image:hover {
+  opacity: 1;
+}
+.Image > img {
+  width: inherit;
+  height: inherit;
+
+
+
+}
+
+
+.avatar {
+  border-radius: 50%;
+  width: 3vmin;
+  height: 3vmin;
+
+}
 
 
 
