@@ -162,7 +162,7 @@ last color - #3cd3c7
   opacity: 1;
 }
 
-.Image {
+.Tour-image {
   width: 40vmin;
   height: 32vmin;
   opacity: .8;
@@ -170,29 +170,16 @@ last color - #3cd3c7
   transition: all .2s ease-in-out;
 }
 
-.Image:hover {
+.Tour-image:hover {
   opacity: 1;
 }
 
-.Image img {
+.Tour-image img {
   width: 40vmin;
   height: 32vmin;
 }
 
-.Card-creator {
-  align-items: center;
-  justify-content: flex-start;
-}
-
-.Avatar {
-  border-radius: 50%;
-  width: 3.5vmin;
-  height: 3.5vmin;
-  margin: 0 .5vmin 0 0;
-
-}
-
-.Card-bottom {
+.Tour-card-bottom {
   font-size: 2vmin;
   justify-content: space-between;
   align-items: flex-start;
@@ -200,16 +187,16 @@ last color - #3cd3c7
   width: 37vmin;
 }
 
-.Card-bottom p {
+.Tour-card-bottom p, .Blog-card-bottom p {
   font-size: 0.5vmin;
 }
 
-.Card-bottom a {
+.Tour-card-bottom a, .Blog-card-bottom a {
   color: #7bcefb;
 
 }
 
-.Card-text {
+.Tour-card-text {
   margin: 2vmin;
   padding: 2vmin;
   text-align: left;
@@ -217,7 +204,7 @@ last color - #3cd3c7
 }
 
 
-.Card-fab {
+.Tour-card-fab {
   height: 7vmin;
   width: 7vmin;
   border-radius: 50%;
@@ -236,13 +223,96 @@ last color - #3cd3c7
 }
 
 
-.Card-fab:hover {
+.Tour-card-fab:hover, .Blog-card-fab:hover {
   /* background: linear-gradient(left, #2dbf91, #55a6a1); */
   cursor: pointer;
   -ms-transform: rotate(360deg);
 	-webkit-transform: rotate(69deg); /* :) */
 	transform: rotate(360deg);
 }
+
+.Card-creator {
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.Avatar {
+  border-radius: 50%;
+  width: 3.5vmin;
+  height: 3.5vmin;
+  margin: 0 .5vmin 0 0;
+
+}
+
+
+
+
+
+
+
+.Blog-image {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:  left;
+  width: 40vmin;
+  height: 55vmin;
+
+  opacity: .5;
+  overflow: hidden;
+  transition: all .2s ease-in-out;
+}
+
+.Blog-card-bottom {
+  width: 38vmin;
+  height: 15vmin;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+.Blog-card-text {
+  text-align: left;
+  padding: 6vmin 0 6vmin 0;
+  margin: 0 1.5vmin 0 1.5vmin;
+
+  font-size: 3vmin;
+  color: white;
+}
+
+.Blog-card-text span {
+  font-family: DejavuSans;
+  font-size: 1.5vmin;
+}
+
+.Blog-card-fab {
+  width: 7vmin;
+  height: 7vmin;
+  line-height: 7vmin;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, .3);
+  cursor: pointer;
+  -webkit-transition: -webkit-transform .2s ease-in-out;
+  transition: transform .2s ease-in-out;
+  box-shadow: 0px 0.8vmin 2vmin rgba(0, 0, 0, .3);
+  text-align: center;
+  position: absolute;
+  font-size: .5vmin;
+  top: 20vmin;
+  left: 30vmin;
+}
+
+
+
+
+
+
+
+
+
 
 
 
