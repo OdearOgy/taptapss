@@ -42,7 +42,7 @@ class App extends Component {
                               <button className="gdn-btn bg--gradient b--none">View Tours <i className="arrow right"></i> </button>
                           </div>
                           <div className="Cards-parent d--flex">
-                              <div className="Cards b--black tour-cards">
+                              <div className="Cards tour-cards">
                                   <div className="Card-header" >
                                       <div className="Image">
                                           <img src={require('./img/card-yerevan.jpg')} />
@@ -85,7 +85,7 @@ class App extends Component {
                                             </div>
                                   </div>
                               </div>
-                              <div className="Cards b--black tour-cards">
+                              <div className="Cards tour-cards">
                                 <div className="Card-header" >
                                     <div className="Image">
                                         <img src={require('./img/card-sevan.jpg')} />
@@ -128,7 +128,7 @@ class App extends Component {
                                           </div>
                                 </div>
                               </div>
-                              <div className="Cards b--black tour-cards">
+                              <div className="Cards tour-cards">
                                 <div className="Card-header" >
                                     <div className="Image">
                                         <img src={require('./img/card-gyumri.jpg')} />

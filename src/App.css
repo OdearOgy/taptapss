@@ -2,7 +2,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: Fredoka_one, Arial;
+    font-family: Arial;
     box-sizing: border-box;
 
 }
@@ -14,7 +14,6 @@
     background-position: 50%;
     background-size: cover;
     background-color: #fff;
-
 }
 
 .Header-cover {
@@ -25,32 +24,20 @@
     overflow: hidden;
 }
 
-/* .Nav-inner {
-    padding: 1vw;
-} */
 
 
 /* need to review this part of code */
-
-.Logo {
-
-}
-
 
 .Titles {
   width: 30vw;
   height: 30vh;
   font-size: 4vmin;
-  /* padding: 30vh 35vw; */
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
   margin: auto;
-  border: 2px solid black;
-  /* margin: 2vmin; */
-
 }
 
 .Btn-setts {
@@ -64,8 +51,7 @@
 
 
 /*  writing some code without utility classes */
-
-
+/* Card's Section */
 
 section {
   width: 70vw;
@@ -81,29 +67,17 @@ section {
 .Tours-section, .Blog-section {
   padding: 5vmin;
   margin: 5vmin;
-  /* border: 1px solid black; */
   flex-direction: column;
   align-items: flex-start;
-
 }
 
 .Section-header {
   align-items: center;
 }
 
-
-
 .slider-btn-bottom {
-
   cursor: pointer;
-
-
 }
-
-
-
-
-
 
 .gdn-btn {
   border-radius: 1.5vmin;
@@ -116,27 +90,14 @@ section {
 .gdn-btn:hover {
   background: red;
   transition: all .2s ease-in-out;
-
 }
-
-
 
 .Slider-btn {
-  width: 50px;
-  height: 50px;
+  width: 10vmin;
+  height: 10vmin;
   background: rgba(0, 0, 0, 0);
   border: none;
-
-
 }
-
-
-.arrow-btn {
-  transform: scale(65) !important;
-  cursor: pointer;
-
-}
-
 
 .arrow {
     border: solid white;
@@ -149,9 +110,7 @@ section {
 .right {
     transform: rotate(-45deg) ;
     -webkit-transform: rotate(-45deg);
-
 }
-
 
 .slide-arrow {
   border-width: 0 1.2vmin 1.2vmin 0;
@@ -159,11 +118,7 @@ section {
   padding: 2vmin;
   border-radius: 1vmin 1vmin;
   cursor: pointer;
-
 }
-
-
-
 
 
 
@@ -181,30 +136,7 @@ last color - #3cd3c7
 */
 
 
-
-
-/*
-.card-header {
-  overflow: hidden;
-  position: relative;
-}
-
-.card-header:hover {
-   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-} */
-
-/* .card-img {
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: 50%;
-  background-size: cover;
-  background-color: #fff;
-  height: 33vh;
-  width: 15.9vw;
-
-}
-*/
-
+/* Tour Cards */
 
 .Cards-parent {
   justify-content: center;
@@ -216,9 +148,6 @@ last color - #3cd3c7
   height: 55vmin;
   box-shadow: 0 0.5vmin 0.8vmin 0 rgba(0,0,0,.3);
   overflow: hidden;
-
-
-  /* padding: 2vmin; */
   margin: 4vmin;
   border-radius: 3vmin;
   position: relative;
@@ -231,9 +160,7 @@ last color - #3cd3c7
   box-shadow: 0 3vmin 3vmin rgba(0,0,0,0.19), 0 1.5vmin 2vmin rgba(0,0,0,0.23);
   background: #ececec;
   opacity: 1;
-
 }
-
 
 .Image {
   width: 40vmin;
@@ -243,18 +170,14 @@ last color - #3cd3c7
   transition: all .2s ease-in-out;
 }
 
-
 .Image:hover {
   opacity: 1;
 }
+
 .Image img {
   width: 40vmin;
   height: 32vmin;
-
-
-
 }
-
 
 .Card-creator {
   align-items: center;
@@ -266,7 +189,6 @@ last color - #3cd3c7
   width: 3.5vmin;
   height: 3.5vmin;
   margin: 0 .5vmin 0 0;
-  background-image: image();
 
 }
 
@@ -289,6 +211,8 @@ last color - #3cd3c7
 
 .Card-text {
   margin: 2vmin;
+  padding: 2vmin;
+  text-align: left;
 
 }
 
@@ -329,7 +253,7 @@ last color - #3cd3c7
 .star-rating {
     direction: rtl;
     display: inline-block;
-    padding: 2vmin;
+    padding: 1vmin;
     background: #ececec;
 
 }

@@ -19,6 +19,11 @@
   src: url('./fonts/ubuntu/Ubuntu-Bold.ttf');
 }
 
+@font-face {
+  font-family: DejavuSans;
+  src: url('./fonts/DejaVuSans.ttf');
+}
+
 
 /* utility classes */
 
