@@ -3,8 +3,9 @@ import './App.css';
 import './Tss.css';
 import { Card, ImageHeader, CardBody, CardFooter } from 'react-simple-card';
 import Banner from './img/banner6.jpg';
-import card from './img/card-yerevan.jpg';
-import logo from './img/512w/Artboard.png';
+import Blog1 from  './img/agriculture-china.jpg';
+import Blog2 from './img/adventure-compass.jpg';
+import Blog3 from './img/adventure-back.jpg';
 
 import {
     BrowserRouter as Router,
@@ -21,7 +22,7 @@ class App extends Component {
                         <div className='Header-cover w--full h--full'>
                             <div className='Nav w--full m--0'>
                                 <div className='Nav-inner'>
-                                    <div className='Logo d--inline-block f--left' style={{backgroundImage: `url(${card})`}}></div>
+                                    <div className='Logo d--inline-block f--left'></div>
                                     {/* <div className='clear'></div> */}
 
                                 </div>
@@ -43,13 +44,13 @@ class App extends Component {
                           </div>
                           <div className="Cards-parent d--flex">
                               <div className="Cards tour-cards">
-                                  <div className="Card-header" >
-                                      <div className="Image">
+                                  <div className="Tour-card-header" >
+                                      <div className="Tour-image">
                                           <img src={require('./img/card-yerevan.jpg')} />
                                       </div>
-                                            <div className="Card-bottom d--flex">
-                                                <div className="Card-text">
-                                                  <p>YEREVAN * ARMENIA</p>
+                                            <div className="Tour-card-bottom d--flex">
+                                                <div className="Tour-card-text">
+                                                  <p>YEREVAN • ARMENIA</p>
                                                   <h3>Discover hidden places in Yerevan</h3>
                                                   <div className="Card-rate-sys">
                                                     <div className="star-rating">
@@ -81,18 +82,18 @@ class App extends Component {
                                                     <p>Tour by <a href="https://facebook.com/odearogy/" target="_blank" className="text-d--none">Hovo Mkhitaryan</a> </p>
                                                   </div>
                                                 </div>
-                                                <div className="Card-fab">FREE</div>
+                                                <div className="Tour-card-fab">FREE</div>
                                             </div>
                                   </div>
                               </div>
                               <div className="Cards tour-cards">
-                                <div className="Card-header" >
-                                    <div className="Image">
+                                <div className="Tour-card-header" >
+                                    <div className="Tour-image">
                                         <img src={require('./img/card-sevan.jpg')} />
                                     </div>
-                                          <div className="Card-bottom d--flex">
-                                              <div className="Card-text">
-                                                <p>SEVAN * ARMENIA</p>
+                                          <div className="Tour-card-bottom d--flex">
+                                              <div className="Tour-card-text">
+                                                <p>SEVAN • ARMENIA</p>
                                                 <h3>Discover the Land of Free Water!</h3>
                                                 <div className="Card-rate-sys">
                                                   <div className="star-rating">
@@ -124,20 +125,20 @@ class App extends Component {
                                                   <p>Tour by <a href="https://www.facebook.com/christopher.margolis.37" target="_blank" className="text-d--none">Chris Margo</a> </p>
                                                 </div>
                                               </div>
-                                              <div className="Card-fab">FREE</div>
+                                              <div className="Tour-card-fab">FREE</div>
                                           </div>
                                 </div>
                               </div>
                               <div className="Cards tour-cards">
-                                <div className="Card-header" >
-                                    <div className="Image">
+                                <div className="Tour-card-header" >
+                                    <div className="Tour-image">
                                         <img src={require('./img/card-gyumri.jpg')} />
                                     </div>
-                                          <div className="Card-bottom d--flex">
-                                              <div className="Card-text">
-                                                <p>GYUMRI * ARMENIA</p>
+                                          <div className="Tour-card-bottom d--flex">
+                                              <div className="Tour-card-text">
+                                                <p>GYUMRI • ARMENIA</p>
                                                 <h3>Night shoots in one of the Armenia's oldest cities</h3>
-                                                <div className="Card-rate-sys">
+                                                <div className="Tour-card-rate-sys">
                                                   <div className="star-rating">
                                                             <input id="star-5" type="radio" name="rating" value="star-5" />
                                                             <label for="star-5" title="5 stars">
@@ -167,7 +168,7 @@ class App extends Component {
                                                   <p>Tour by <a href="https://www.facebook.com/profile.php?id=100008007705858" target="_blank" className="text-d--none">Vahagn Rodrigues</a> </p>
                                                 </div>
                                               </div>
-                                              <div className="Card-fab">FREE</div>
+                                              <div className="Tour-card-fab">FREE</div>
                                           </div>
                                 </div>
                               </div>
@@ -181,7 +182,23 @@ class App extends Component {
                               <button className="gdn-btn bg--gradient b--none">View Blogs <i className="arrow right "></i> </button>
                           </div>
                           <div className="Cards-parent d--flex">
-                              <div className="Cards b--black"> hello world</div>
+                              <div className="Cards">
+                                <div className="Blog-card-header" >
+                                    {/* <div className="Blog-image" style={{backgroundImage: `url(${Blog1})`}}></div> */}
+                                    <div className="Blog-card-bottom d--flex">
+                                        <div className="Blog-card-text">
+                                            <h3>What She Doesn't Want You To Know</h3>
+                                            <p>17 July, 2018 • Tourism Tips</p>
+                                            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</span>
+                                            <div className="Card-creator d--flex">
+                                              <img src={require('./img/avatar2.jpg')} className="Avatar" />
+                                              <p>by <a href="https://www.facebook.com/christopher.margolis.37" target="_blank" className="text-d--none">Chris Margo</a> </p>
+                                            </div>
+                                        </div>
+                                        <div className="Blog-card-fab">Share</div>
+                                    </div>
+                                </div>
+                              </div>
                               <div className="Cards b--black">lorem ipsum</div>
                               <div className="Cards b--black"> lorem ipsum 2</div>
                               <button className="Slider-btn"> <i className="arrow right slide-arrow"></i></button>
