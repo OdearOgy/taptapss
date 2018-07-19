@@ -77,7 +77,7 @@ class App extends Component {
 		                                                </div>
                                                         192
                                                   </div>
-                                                  <div className="Card-creator d--flex">
+                                                  <div className="Card-creator">
                                                     <img src={require('./img/avatar1.jpg')} className="Avatar" />
                                                     <p>Tour by <a href="https://facebook.com/odearogy/" target="_blank" className="text-d--none">Hovo Mkhitaryan</a> </p>
                                                   </div>
@@ -120,9 +120,9 @@ class App extends Component {
                                                   </div>
                                                     143
                                                 </div>
-                                                <div className="Card-creator d--flex">
+                                                <div className="Card-creator">
                                                   <img src={require('./img/avatar2.jpg')} className="Avatar" />
-                                                  <p>Tour by <a href="https://www.facebook.com/christopher.margolis.37" target="_blank" className="text-d--none">Chris Margo</a> </p>
+                                                  <p>Tour by <a href="https://www.facebook.com/christopher.margolis.37" target="_blank" className="text-d--none">Chris Margolis</a> </p>
                                                 </div>
                                               </div>
                                               <div className="Tour-card-fab">FREE</div>
@@ -163,7 +163,7 @@ class App extends Component {
                                                   </div>
                                                       830
                                                 </div>
-                                                <div className="Card-creator d--flex">
+                                                <div className="Card-creator">
                                                   <img src={require('./img/avatar3.jpg')} className="Avatar" />
                                                   <p>Tour by <a href="https://www.facebook.com/profile.php?id=100008007705858" target="_blank" className="text-d--none">Vahagn Rodrigues</a> </p>
                                                 </div>
@@ -186,7 +186,7 @@ class App extends Component {
                                 <div className="Blog-card-header" >
                                     <div className="Blog-image" style={{backgroundImage: `url(${Blog1})`}}></div>
                                     <div className="Blog-card-cover"></div>
-                                    <div className="Blog-card-bottom d--flex">
+                                    <div className="Blog-card-bottom">
                                         <div className="Blog-card-text">
                                             <h3>What She Doesn't Want You To Know</h3>
                                             <p>17 July, 2018 • Tourism Tips</p>
@@ -197,17 +197,144 @@ class App extends Component {
                                                 esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
                                                 qui officia deserunt mollit anim id est laborum.
                                             </div>
-                                            <div className="Card-creator d--flex">
-                                              <img src={require('./img/avatar2.jpg')} className="Avatar" />
-                                              <p>by <a href="https://www.facebook.com/christopher.margolis.37" target="_blank" className="text-d--none">Chris Margo</a> </p>
-                                            </div>
                                         </div>
-                                        <div className="Blog-card-fab">Share</div>
+                                        <div className="Card-creator">
+                                          <img src={require('./img/avatar2.jpg')} className="Avatar" />
+                                          <p>by <a href="https://www.facebook.com/christopher.margolis.37" target="_blank" className="text-d--none">Chris Margolis</a> </p>
+                                        </div>
+                                        <div className="Blog-card-fab">
+                                            <span class="fab-action-button">
+                                                  <i class="fab-action-button__icon"></i>
+                                            </span>
+                                            {/* here is button for social media sharing */}
+                                            {/* <ul class="fab-buttons">
+                                                <li class="fab-buttons__item">
+                                                    <a href="#" class="fab-buttons__link" data-tooltip="Facebook">
+                                                        <i class="icon-material icon-material_fb"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="fab-buttons__item">
+                                                    <a href="#" class="fab-buttons__link" data-tooltip="Twitter">
+                                                        <i class="icon-material icon-material_tw"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="fab-buttons__item">
+                                                    <a href="#" class="fab-buttons__link" data-tooltip="Linkedin">
+                                                      <i class="icon-material icon-material_li"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="fab-buttons__item">
+                                                    <a href="#" class="fab-buttons__link" data-tooltip="Google+">
+                                                      <i class="icon-material icon-material_gp"></i>
+                                                    </a>
+                                                </li>
+                                            </ul> */}
+                                        </div>
                                     </div>
                                 </div>
                               </div>
-                              <div className="Cards b--black">lorem ipsum</div>
-                              <div className="Cards b--black"> lorem ipsum 2</div>
+                              <div className="Cards">
+                                <div className="Blog-card-header" >
+                                    <div className="Blog-image" style={{backgroundImage: `url(${Blog2})`}}></div>
+                                    <div className="Blog-card-cover"></div>
+                                    <div className="Blog-card-bottom">
+                                        <div className="Blog-card-text">
+                                            <h3>What She Doesn't Want You To Know</h3>
+                                            <p>17 July, 2018 • Tourism Tips</p>
+                                            <div className="card-text">
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+                                                esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                                                qui officia deserunt mollit anim id est laborum.
+                                            </div>
+                                        </div>
+                                        <div className="Card-creator">
+                                          <img src={require('./img/avatar2.jpg')} className="Avatar" />
+                                          <p>by <a href="https://www.facebook.com/christopher.margolis.37" target="_blank" className="text-d--none">Chris Margolis</a> </p>
+                                        </div>
+                                        <div className="Blog-card-fab">
+                                            <span class="fab-action-button">
+                                                  <i class="fab-action-button__icon"></i>
+                                            </span>
+                                            {/* here is button for social media sharing */}
+                                            {/* <ul class="fab-buttons">
+                                                <li class="fab-buttons__item">
+                                                    <a href="#" class="fab-buttons__link" data-tooltip="Facebook">
+                                                        <i class="icon-material icon-material_fb"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="fab-buttons__item">
+                                                    <a href="#" class="fab-buttons__link" data-tooltip="Twitter">
+                                                        <i class="icon-material icon-material_tw"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="fab-buttons__item">
+                                                    <a href="#" class="fab-buttons__link" data-tooltip="Linkedin">
+                                                      <i class="icon-material icon-material_li"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="fab-buttons__item">
+                                                    <a href="#" class="fab-buttons__link" data-tooltip="Google+">
+                                                      <i class="icon-material icon-material_gp"></i>
+                                                    </a>
+                                                </li>
+                                            </ul> */}
+                                        </div>
+                                    </div>
+                                </div>
+                              </div>
+                              <div className="Cards">
+                                <div className="Blog-card-header" >
+                                    <div className="Blog-image" style={{backgroundImage: `url(${Blog3})`}}></div>
+                                    <div className="Blog-card-cover"></div>
+                                    <div className="Blog-card-bottom">
+                                        <div className="Blog-card-text">
+                                            <h3>What She Doesn't Want You To Know</h3>
+                                            <p>17 July, 2018 • Tourism Tips</p>
+                                            <div className="card-text">
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+                                                esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                                                qui officia deserunt mollit anim id est laborum.
+                                            </div>
+                                        </div>
+                                        <div className="Card-creator">
+                                          <img src={require('./img/avatar2.jpg')} className="Avatar" />
+                                          <p>by <a href="https://www.facebook.com/christopher.margolis.37" target="_blank" className="text-d--none">Chris Margolis</a> </p>
+                                        </div>
+                                        <div className="Blog-card-fab">
+                                            <span class="fab-action-button">
+                                                  <i class="fab-action-button__icon"></i>
+                                            </span>
+                                            {/* here is button for social media sharing */}
+                                            {/* <ul class="fab-buttons">
+                                                <li class="fab-buttons__item">
+                                                    <a href="#" class="fab-buttons__link" data-tooltip="Facebook">
+                                                        <i class="icon-material icon-material_fb"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="fab-buttons__item">
+                                                    <a href="#" class="fab-buttons__link" data-tooltip="Twitter">
+                                                        <i class="icon-material icon-material_tw"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="fab-buttons__item">
+                                                    <a href="#" class="fab-buttons__link" data-tooltip="Linkedin">
+                                                      <i class="icon-material icon-material_li"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="fab-buttons__item">
+                                                    <a href="#" class="fab-buttons__link" data-tooltip="Google+">
+                                                      <i class="icon-material icon-material_gp"></i>
+                                                    </a>
+                                                </li>
+                                            </ul> */}
+                                        </div>
+                                    </div>
+                                </div>
+                              </div>
                               <button className="Slider-btn"> <i className="arrow right slide-arrow"></i></button>
                           </div>
                         </div>
