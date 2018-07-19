@@ -184,12 +184,19 @@ class App extends Component {
                           <div className="Cards-parent d--flex">
                               <div className="Cards">
                                 <div className="Blog-card-header" >
-                                    {/* <div className="Blog-image" style={{backgroundImage: `url(${Blog1})`}}></div> */}
+                                    <div className="Blog-image" style={{backgroundImage: `url(${Blog1})`}}></div>
+                                    <div className="Blog-card-cover"></div>
                                     <div className="Blog-card-bottom d--flex">
                                         <div className="Blog-card-text">
                                             <h3>What She Doesn't Want You To Know</h3>
                                             <p>17 July, 2018 • Tourism Tips</p>
-                                            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</span>
+                                            <div className="card-text">
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                                                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+                                                esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                                                qui officia deserunt mollit anim id est laborum.
+                                            </div>
                                             <div className="Card-creator d--flex">
                                               <img src={require('./img/avatar2.jpg')} className="Avatar" />
                                               <p>by <a href="https://www.facebook.com/christopher.margolis.37" target="_blank" className="text-d--none">Chris Margo</a> </p>
