@@ -17,7 +17,7 @@ class App extends Component {
     render() {
         return (
             <Router>
-                <div className='Main'>
+                <div className='Main d--flex'>
                     <div className='Header w--full h--full' style={{backgroundImage: `url(${Banner})`}}>
                         <div className='Header-cover w--full h--full'>
                             <div className='Nav w--full m--0'>
@@ -36,7 +36,7 @@ class App extends Component {
                           <button className="slider-btn-bottom">click me </button>
 
                     </div>
-                    <section>
+                    <div className="section-0">
                         <div className="Tours-section d--flex ">
                           <div className="Section-header d--flex">
                               <h2>Our Fantastic Tours</h2>
@@ -338,7 +338,15 @@ class App extends Component {
                               <button className="Slider-btn"> <i className="arrow right slide-arrow"></i></button>
                           </div>
                         </div>
-                  </section>
+                  </div>
+
+                <div className="section-1">
+                  <div className="Guide-section"  >
+                    <h2>Do You Want to Become a Tour Guide</h2>
+                    <p>lorem ipsum dolor sit amet id eos cibo maiestatis instructior, quis affert adipisci ne ius</p>
+                    <button className="guide-btn">Become a Tour Guide</button>
+                  </div>
+                </div>
 
                 </div>
             </Router>
