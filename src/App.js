@@ -6,6 +6,7 @@ import Banner from './img/banner6.jpg';
 import Blog1 from  './img/agriculture-china.jpg';
 import Blog2 from './img/adventure-compass.jpg';
 import Blog3 from './img/adventure-back.jpg';
+import Foot_banner from './img/footer-banner.jpg';
 
 import {
     BrowserRouter as Router,
@@ -341,12 +342,20 @@ class App extends Component {
                   </div>
 
                 <div className="section-1">
-                  <div className="Guide-section"  >
-                    <h2>Do You Want to Become a Tour Guide</h2>
-                    <p>lorem ipsum dolor sit amet id eos cibo maiestatis instructior, quis affert adipisci ne ius</p>
-                    <button className="guide-btn">Become a Tour Guide</button>
+                  <div className="Guide-section "  style={{backgroundImage: `url(${Foot_banner})`}}>
+                      <div className="Guide-cover d--flex">
+                          <h2>Do You Want to Become a Tour Guide ?</h2>
+                          <p>lorem ipsum dolor sit amet id eos cibo maiestatis instructior, quis affert adipisci ne ius</p>
+                          <button className="guide-btn">Become a Tour Guide</button>
+                        </div>
                   </div>
                 </div>
+                <footer>
+                    <ul>
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Send Feedback</a></li>
+                    </ul>
+                </footer>
 
                 </div>
             </Router>
