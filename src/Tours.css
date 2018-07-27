@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.Tours-main {
+}
+
+.Tours-text, .Tours-photos {
+  width: 50vw;
+  height: 100vh;
+  border: 1px solid black;
+  /* margin: 3vmin 10vmin; */
+  /* padding: 2vmin;*/
+}
+
+.Tours-text {
+  padding: 3vmin 2.5vmin 2vmin 10vmin;
+}
+
+.Tours-photos {
+  padding: 3vmin 10vmin 2vmin 2.5vmin;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.Tours-text p, .Tours-text h2 {
+  padding: 2vmin 0;
+}
+
+.ToursP-btn {
+  border-radius: 10vmin;
+  border: none;
+  color: white;
+  background: linear-gradient(left, #fe5a36, #c57032);
+  padding: 1.5vmin 2.5vmin;
+  margin: 2vmin;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+}
+
+.ToursP-btn:hover {
+  background: linear-gradient(left, #c57032, #fe5a36);
+  transition: all .2s ease-in-out;
+}
+
+.icons {
+  line-height: 2.5vmin;
+  padding: 1vmin 0;
+}
+
+.icons img {
+  width: 2.5vmin;
+  height: 2.5vmin;
+
+}

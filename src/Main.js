@@ -167,7 +167,7 @@ class Main extends Component {
                                                 </div>
                                                 <div className="Card-creator">
                                                   <img src={require('./img/avatar3.jpg')} className="Avatar" />
-                                                  <p>Tour by <a href="https://www.facebook.com/profile.php?id=100008007705858" target="_blank" className="text-d--none">Vahagn Rodrigues</a> </p>
+                                                  <p>Tour by <a href="https://www.facebook.com/profile.php?id=100008007705858" target="_blank" className="text-d--none">Vahagn Zaqaryan</a> </p>
                                                 </div>
                                               </div>
                                               <div className="Tour-card-fab">FREE</div>
